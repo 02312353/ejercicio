@@ -1,0 +1,92 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/fondo.jpg");
+    background-size: cover;
+    background-attachment: fixed; 
+    background-position: center; 
+    color: #102a43;
+}
+
+
+.contenedor-mosaico {
+    max-width: 650px;
+    margin: 40px auto 120px auto;
+    padding: 25px;
+    background-color: #ffffff;
+    border-left: 6px solid #d94111; 
+    text-align: justify; 
+}
+
+
+h1, h3 {
+    color: #0b1a30;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h1 {
+    letter-spacing: 3px;
+}
+
+
+.bloque-introduccion, 
+.bloque-secundario {
+    margin: 20px 0;
+    padding: 10px;
+}
+
+
+main .foto {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin: 15px auto;
+    display: block;
+    border: 3px dashed #d94111; 
+}
+
+
+.caja-deporte {
+    background-color: #f7fafc;
+    margin: 35px 0;
+    padding: 20px;
+    border: 1px solid #bcccdc;
+}
+
+
+.foto-producto {
+    width: 100%;
+    max-width: 250px;
+    height: 150px;
+    object-fit: cover;
+    margin: 0 auto 15px auto;
+    display: block;
+}
+
+
+.barra-navegacion {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #0b1a30;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.barra-navegacion a {
+    color: #9fb3c8;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.barra-navegacion a:hover,
+ .barra-navegacion a.activo {
+    color: #ffffff;
+    border-bottom: 2px solid #d94111;
+}
